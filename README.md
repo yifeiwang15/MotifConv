@@ -1,5 +1,5 @@
 # MotifConv
-This is the official implementation of "Motif-based Graph Representation Learning with Application to Chemical Molecules".
+This is the official implementation of [Motif-based Graph Representation Learning with Application to Chemical Molecules](https://arxiv.org/abs/2208.04529).
 ![Motif Convotion Module](https://github.com/yifeiwang15/MotifConv/blob/main/pipeline.png)
 
 ## Abstract
