@@ -1,4 +1,4 @@
-#Implementation of MXMNet+MCM
+# Implementation of MXMNet+MCM
 
 ## Requirements
 CUDA : 10.2
@@ -30,6 +30,10 @@ Optional arguments:
   --target          index of target (0~11 except 4)  for prediction on QM9
   --cutoff          distance cutoff used in the global layer
 ```
+## Node embeddings learned by MCM. 
+The reproduction code for t-SNE visualization in Figure 4 is provided in [tsne visual folder](https://drive.google.com/drive/folders/1R-DQEIQBbQKlrLJNlVsdYR93uQ-I7_fY?usp=sharing) (shared google drive), where we stored the node embeddings learned by MCM as well as the manually labeled carbons. 
+
+![TSNE_visual](https://github.com/yifeiwang15/MotifConv/blob/main/MCM_for_qm9/MCM_tsne_visual.png)
 
 ## Acknowledgment
 Part of code is modified from [MXMNet](https://arxiv.org/abs/2011.07457). 
