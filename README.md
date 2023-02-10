@@ -19,3 +19,22 @@ We also demonstrate the performance and explainability advantages of our approac
 
 ## Modules
 Folder `graph_match` contains the CUDA-enabled system for ARG matching. Folders `MCM_for_syn`, `MCM_for_molecule_benchmarks` and `MCM_for_qm9` include all scripts to run experiments.
+
+## Citation
+
+If you use the codes, please cite the following paper:
+
+```
+@Article{informatics10010008,
+AUTHOR = {Wang, Yifei and Chen, Shiyang and Chen, Guobin and Shurberg, Ethan and Liu, Hang and Hong, Pengyu},
+TITLE = {Motif-Based Graph Representation Learning with Application to Chemical Molecules},
+JOURNAL = {Informatics},
+VOLUME = {10},
+YEAR = {2023},
+NUMBER = {1},
+ARTICLE-NUMBER = {8},
+URL = {https://www.mdpi.com/2227-9709/10/1/8},
+ISSN = {2227-9709},
+DOI = {10.3390/informatics10010008}
+}
+```
